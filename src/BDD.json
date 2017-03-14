@@ -1,0 +1,86 @@
+{
+  "forms": {
+    "Channel": {
+
+      "name": "Channel Evaluation IT",
+      "author" : "Alice",
+      "ideas": {
+        "montre": {
+          "name": "Montre Connectée",
+          "description": "Nouvelle montre de luxe"
+        },
+        "lunettes": {
+          "name": "Lunettes Connectées",
+          "descritpion": "Nouvelles lunettes connectées"
+        }
+      },
+      "categories": {
+        "Image": {
+          "name": "Gain et Risque d'image",
+          "criterias": [
+            "criteria1",
+            "criteria2"
+          ]
+        },
+        "Désirabilité": {
+          "name": "Désirabilité du produit",
+          "criterias": [
+            "criteria3, criteria4"
+          ]
+        }
+      },
+      "criteriaList": {
+        "criteria1": {
+          "name": "anti big brother",
+          "description": "Les données sont-elles protégées?",
+          "coeff": 1
+        },
+        "criteria2": {
+          "name": "Moralité et responsabilité",
+          "description": "L'innovation est à la fois éthique, écologique et sociale?",
+          "coeff": 1
+        },
+        "criteria3": {
+          "name": "Esthétique et Utilité",
+          "description": "L'innovation allie esthétisme et utilité",
+          "coeff": 1
+          }
+        },
+        "criteria4": {
+          "name": "Simplicité",
+          "description": "L'innovation est userfriendly?",
+          "coeff": 1
+        }
+      },
+
+      "users": {
+        "user1": {
+          "name": "NMichel",
+          "role": "designer"
+        },
+        "user2": {
+          "name": "Bernard",
+          "role": "developper"
+        }
+      },
+
+      "notes" :[
+      {
+      	"userID" : "user1",
+      	"criteriaID" : "criteria1", 
+      	"ideaID" : "montre", 
+      	"note" : 3
+      },
+      {
+      	"userID" : "user2",
+      	"criteriaID" : "criteria1", 
+      	"ideaID" : "montre", 
+      	"note" : 2
+      }
+      ]
+    }
+  }
+}
+
+
+
